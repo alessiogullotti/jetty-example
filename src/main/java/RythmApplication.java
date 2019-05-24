@@ -30,7 +30,8 @@ public class RythmApplication extends HttpServlet
             String time = req.getParameter("mytime");
             OrderClass.addorder(firstname,lastname,pizza,time);
             ArrayList<Order> list=OrderClass.getOrders();
-            write(resp, Rythm.render("ListHtml.html",list.get(0)));
+            write(resp, Rythm.render("result.html",firstname,lastname,pizza,time));
+            write(resp, Rythm.render("ListHtml.html",list));
     }
 
 

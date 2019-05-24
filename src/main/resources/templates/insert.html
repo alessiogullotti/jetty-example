@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="UTF-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/main.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            padding-top: 5rem;
+        }
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">My Application</a>
+</nav>
+<div>
+<main role="main" class="container">
+
+    <div class="starter-template">
+        <h1>Hello, welcome onboard!</h1>
+        <p class="lead">use this template as starting point for your application</p>
+    </div>
+
+</main><!-- /.container -->
+<div class="starter-template">
+<form action="result.html" method="post" >
+    First name:<br>
+    <input id="firstname" type="text" name="firstname" value="">
+    <br>
+    Last name:<br>
+    <input id="lastname" type="text" name="lastname" value="">
+    <br><br>
+    <h1>Order form</h1>
+    <!-- pizza type -->
+        <h2>Pizza type</h2>
+        <div>
+            <input id="pizza-margherita" name="pizza-type" type="radio" value="margherita">
+            <label for="pizza-margherita"><strong>Margherita</strong></label>
+        </div>
+        <div>
+            <input id="pizza-prosciutto-e-funghi" name="pizza-type" type="radio" value="prosciutto e funghi">
+            <label for="pizza-prosciutto-e-funghi"><strong>Prosciutto e funghi</strong></label>
+        </div>
+        <div>
+            <input id="pizza-panna-e-speck" name="pizza-type" type="radio" value="panna e speck">
+            <label for="pizza-panna-e-speck"><strong>Panna e speck</strong></label>
+        </div>
+        <div>
+            <input id="pizza-marinara" name="pizza-type" type="radio" value="marinara">
+            <label for="pizza-marinara"><strong>Marinara</strong></label>
+        </div>
+        <div>
+            <label>Per che ora?
+                <input type="time" name="mytime">
+            </label>
+            <input type="reset" value="Resetta il form">
+        </div>
+    <input type="submit" value="Ordina" >
+</form>
+</div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

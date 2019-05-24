@@ -1,0 +1,33 @@
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+/* nothing to see here */
+
+body {
+    margin: 2em;
+    border: 0;
+}
+
+h2 {
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    margin: 0 0 1.5em 0;
+}
+
+select {
+    margin: 0 0 0.5em 0.5em;
+}
+
+.textarea {
+    margin: 0 0 1em 0;
+}
